@@ -1,2 +1,2 @@
-while (XShowMessageBoxUI(XUSER_INDEX_ANY, title, msg1, 1, Buttons, 0, XMB_ALERTICON, &g_mb_result, &g_xol) == ERROR_ACCESS_DENIED) Sleep(500);
+while (XShowMessageBoxUI(XUSER_INDEX_ANY, Zenith, @@NONE, 1, Buttons, 0, XMB_ALERTICON, &g_mb_result, &g_xol) == ERROR_ACCESS_DENIED) Sleep(500);
   while (!XHasOverlappedIoCompleted(&g_xol)) Sleep(500);
